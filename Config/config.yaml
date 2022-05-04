@@ -1,0 +1,14 @@
+database:
+  type: mysql
+  ip: 127.0.0.1
+  port: 3306
+  name: HomeworkForDB
+  username: root
+  password: 123456
+import:
+  mysql:
+    location: database/sql
+  yaml:
+    location: gopkg.in/yaml.v2
+  gin:
+    location: github.com/gin-gonic/gin
